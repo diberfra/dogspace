@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-
+#index {
+	background-image: url(Back.png);
+}
 
 img {
     width: 250px;
-    padding: 10px;
     display: block;
-    margin-left: 120px;
-    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	background-image: url(Back.png);
 }
 
 #registros {
     justify-content: center;
+	flex-wrap: wrap;
+	background-image: url(Back.png)
    
     
     
@@ -61,10 +68,11 @@ img {
 {
     margin-top: 20px;
     padding: 40px 0px 20px 0px;
-    background-color: #94DFD7;
+    background-color: #fff;
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	width: 350px;
 }
 .login-title
 {
@@ -114,17 +122,15 @@ img {
 
 html {
     height: 100%;
-    background-color: #fff;
+    background-image: url(Back.png);
     
-	/*Image only BG fallback*/
 	
-	/*background = gradient + image pattern combo*/
 
 }
 
 body {
     font-family: montserrat, arial, verdana;
-    background-color: #fff;
+    background-image: url(Back.png;)
 }
 /*form styles*/
 #msform {
@@ -132,6 +138,7 @@ body {
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
+	flex-wrap: wrap;
 }
 #msform fieldset {
 	background: white;
@@ -196,13 +203,13 @@ body {
 	overflow: hidden;
 	/*CSS counters to number the steps*/
 	counter-reset: step;
-	margin-left: 42px;
+	margin-left: 50px;
 }
 #progressbar li {
 	list-style-type: none;
-	color: #0FD6E7;
+	color: #FA6900;
 	text-transform: uppercase;
-	font-size: 9px;
+	font-size: 15px;
 	width: 30%;
 	float: left;
 	position: relative;
@@ -215,7 +222,7 @@ body {
 	display: block;
 	font-size: 10px;
 	color: #333;
-	background: #0FD6E7;
+	background: #FA6900;
 	border-radius: 3px;
 	margin: 0 auto 5px auto;
 }
@@ -224,7 +231,7 @@ body {
 	content: '';
 	width: 100%;
 	height: 2px;
-	background: #0FD6E7;
+	background: #FA6900;
 	position: absolute;
 	left: -50%;
 	top: 9px;
@@ -237,8 +244,10 @@ body {
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before,  #progressbar li.active:after{
-	background: #0FD6E7;
+	background: #FA6900;
 	color: white;
 }
+
+/*Nav bar*/
 
 
