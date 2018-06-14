@@ -27,6 +27,11 @@ img {
        
 }
 
+#face {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .form-signin {
     max-width: 330px;
     padding: 15px;
@@ -434,7 +439,7 @@ section{
     padding:60px 0px;
 	font-family: 'Raleway', sans-serif;
 	background-image: url(Back.png);
-	
+
 }
 
 #titulo {
