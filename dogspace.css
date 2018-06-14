@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
 
 a {
 	text-decoration: none;
@@ -427,7 +428,84 @@ h1 {
 	height: 80px;
 }
 
+/*Carrusel*/
 
+section{
+    padding:60px 0px;
+	font-family: 'Raleway', sans-serif;
+	background-image: url(Back.png);
+	
+}
+
+#titulo {
+    color: #FA6900;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+#noticias {
+	font-size:13px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+#news {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+#descrip {
+	color: #FA6900;
+}
+
+.ion-minus{
+    padding:0px 10px;
+}
+
+#blog{
+	background-color:#f6f6f6;
+}
+
+#blog .carousel-indicators {
+    bottom: -60px;
+}
+
+#blog .carousel-indicators li{
+    background-color: #5db4c0;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+}
+
+#blog .carousel-indicators li.active{
+    background-color: #888383;
+}
+
+#blog .card-block{
+    padding: 10px;
+}
+
+#blog .card{
+    background-color: #FA6900;
+    border: 1px solid #FA6900;
+	margin: 20px 0px;
+	box-shadow: 2px 2px 2px 2px #FA6900;
+}
+
+.btn.btn-default {
+    background-color: #5db4c0;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    padding: 13px 20px;
+    font-size: 13px;
+	font-weight: 600;
+	
+}
 
 
 

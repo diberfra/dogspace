@@ -3,7 +3,7 @@
   <head>
         
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=320" />
     <link rel="stylesheet" href="dogspace.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link href="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -19,22 +19,28 @@
           <!-- multistep form -->
 <form id="msform">
         <!-- progressbar -->
-        <ul id="progressbar" id="cuadros">
-          <li class="active">Registro de Cuenta</li>
-          <li>Datos Personales</li>
+        <ul id="progressbar">
+          <li>Registro de Cuenta</li>
+          <li class="active"> Datos Personales</li>
           <li>Datos de tu Perro</li>
         </ul>
         <!-- fieldsets -->
         <fieldset>
-          <h2 class="fs-title">Crea tu cuenta</h2>
-          <h3 class="fs-subtitle">Paso 1</h3>
-          <input type="text" name="email" placeholder="Correo electrónico" />
-          <input type="password" name="pass" placeholder="Contraseña" />
-          <input type="password" name="cpass" placeholder="Confirma tu contraseña" />
-          <a href="dogspacedatosper.html">
+          <h2 class="fs-title">Datos Personales</h2>
+          <h3 class="fs-subtitle">Ayudanos a Conocerte</h3>
+          <input type="text" name="fname" placeholder="Nombre" />
+          <input type="text" name="lname" placeholder="Apelido" />
+          <input type="text" name="phone" placeholder="Teléfono" />
+          <input type="text" name="twitter" placeholder="Twitter" />
+          <input type="text" name="facebook" placeholder="Facebook" />
+          <a href="registro.html">
+          <input type="button" name="previous" class="previous action-button" value="Regresar" />
+          </a>
+          <a href="datosperro.html">
           <input type="button" name="next" class="next action-button" value="Siguiente" />
           </a>
         </fieldset>
+       
       </form>
             
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

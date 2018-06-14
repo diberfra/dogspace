@@ -3,13 +3,13 @@
   <head>
         
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=320" />
     <link rel="stylesheet" href="dogspace.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link href="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//:code.jquery.com/jquery-1.11.1.min.js"></script>
-    
+   
     <title>DogSpace</title>
     </head> 
     
@@ -21,26 +21,28 @@
         <!-- progressbar -->
         <ul id="progressbar">
           <li>Registro de Cuenta</li>
-          <li class="active"> Datos Personales</li>
-          <li>Datos de tu Perro</li>
+          <li> Datos Personales</li>
+          <li class="active">Datos de tu Perro</li>
         </ul>
         <!-- fieldsets -->
         <fieldset>
-          <h2 class="fs-title">Datos Personales</h2>
-          <h3 class="fs-subtitle">Ayudanos a Conocerte</h3>
-          <input type="text" name="fname" placeholder="Nombre" />
-          <input type="text" name="lname" placeholder="Apelido" />
-          <input type="text" name="phone" placeholder="Teléfono" />
-          <input type="text" name="twitter" placeholder="Twitter" />
-          <input type="text" name="facebook" placeholder="Facebook" />
-          <a href="dogspaceregistro.html">
+          <h2 class="fs-title">Datos de tu Perro</h2>
+          <h3 class="fs-subtitle">Ya casi terminamos</h3>
+          <input type="text" name="dname" placeholder="Nombre de tu perro" />
+          <input type="text" name="fname" placeholder="Raza de tu perro" />
+          <input type="text" name="fname" placeholder="Edad de tu perro" />
+          <form action="/action_page.php">
+            <input type="file" name="pic" accept="image/*">
+           
+          </form>
+          
+          <a href="datospersonales.html">
           <input type="button" name="previous" class="previous action-button" value="Regresar" />
           </a>
-          <a href="dogspacedatosperro.html">
-          <input type="button" name="next" class="next action-button" value="Siguiente" />
+          <a href="index.html">
+          <input type="button" name="submit" class="submit action-button" value="Ingresar" />
           </a>
         </fieldset>
-       
       </form>
             
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
