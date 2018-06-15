@@ -4,59 +4,50 @@
         
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=320" />
-    <link rel="stylesheet" href="dogspace.css">
+    <link rel="stylesheet" href="registro.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link href="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//:code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="registro.js"></script>
     
     <title>DogSpace</title>
     </head> 
     
-    <body id="register">
+    <body>
 
-            <img src="logo1.png" alt="DogSpace">
-          <!-- multistep form -->
-      <form id="msform">
-        <!-- progressbar -->
-        <ul id="progressbar" id="cuadros">
-          <li class="active">Registro de Cuenta</li>
-          <li>Datos Personales</li>
-          <li>Datos de tu Perro</li>
-        </ul>
-        <!-- fieldsets -->
-        <fieldset id="plan1">
-          <h2 class="fs-title">Crea tu cuenta</h2>
-          <h3 class="fs-subtitle">Paso 1</h3>
-          <input type="text" name="email" placeholder="Correo electrónico" />
-          <input type="password" name="pass" placeholder="Contraseña" />
-          <input type="password" name="cpass" placeholder="Confirma tu contraseña" />
-          <a href="datospersonales.html">
-          <input type="button" name="next" class="next action-button" value="Siguiente" />
-          </a>
-        </fieldset>
-      </form>
+            <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <form id="msform">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li class="active">Información Personal</li>
+                                <li>Información de tu Perro</li>
+                                <li>Configuración de tu Cuenta</li>
+                            </ul>
+                            <!-- fieldsets -->
+                            <fieldset>
+                                <h2 class="fs-title">Información Personal</h2>
+                                <h3 class="fs-subtitle">Cuentanos de ti</h3>
+                                <input type="text" name="fname" placeholder="Nombre"/>
+                                <input type="text" name="lname" placeholder="Apellido"/>
+                                <input type="text" name="phone" placeholder="Teléfono"/>
+                                <a href="datospersonales.html">
+                                <input type="button" name="next" class="next action-button" value="Siguiente"/>
+                                </a>
+                            </fieldset>
+                            
+                        </form>
+                        <!-- link to designify.me code snippets -->
+                        <img src="logo1.png" alt="DogSpace">
+                        <!-- /.link to designify.me code snippets -->
+                    </div>
+                </div>
+                <!-- /.MultiStep Form -->
 
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>               
+</body>
 
-
-      <footer id="piedepagina">
-        <img id="logohome2" src="Logo.png" alt="">
-        <div  style="text-align:center;">
-          <a href=tel:555-555-5555 style="color:#FA6900;text-decoration:none; font-size: 25px;">Llamanos!</a>
-          <p>Correo Electrónico <a href="mailto:someone@example.com">
-            info@dogspace.com</a>.</p>
-          
-            <div id="redess">
-              <img src="twiter.png" alt=""class="icon-button twitter"><i class="icon-twitter"></i><span></span>
-              <img src="facebook.png" alt="" class="icon-button facebook"><i class="icon-facebook"></i><span></span>
-            </div>
-          </div>
-          
-      </footer>
-            
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>               
-    </body>
-
-    </html>
+</html>

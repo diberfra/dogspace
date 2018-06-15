@@ -100,3 +100,8 @@ a {
     color: #F38630;
 
 }
+
+#navbarSupportedContent {
+    background-color: #F9F9F9;
+    width: 10px;
+}

@@ -1,54 +1,45 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <link href="//:netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//:netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <script src="//:code.jquery.com/jquery-1.11.1.min.js"></script>
-        <!------ Include the above in your HEAD tag ---------->
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="dogspace.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=320" />
+    <link href="//:maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//:maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//:code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
+    
     <title>DogSpace</title>
   </head>
-  <body id="index" >
-      <img src="logo1.png" alt="DogSpace">
-
-      <div class="container flex-wrap">
-            <div class="row" id="registros" >
-                <div class="col-sm-6 col-md-4 col-md-offset-4">
-                    <h1 class="text-center login-title" id="entrar">Ingresa a Dogspace</h1>
-                    <div class="account-wall">
-                        <img class="profile-img" src="dog_in_circle.png"
-                            alt="">
-                        <form class="form-signin" flex-wrap>
-                                <div id="face" style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
-                                    
-                                        <div class="col-md-offset-3 col-md-9">
-                                            <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>  Ingresa con Facebook</button>
-                                        </div>                                           
-                                            
-                                    </div>
-                        <input type="text" class="form-control" placeholder="Correo Electrónico" required autofocus>
-                        <input type="password" class="form-control" placeholder="Contraseña" required>
-                        <button class="btn btn-lg btn-primary btn-block" id="boton" type="submit">
-                            Ingresa</button>
-                        <label class="checkbox pull-left">
-                            <input type="checkbox" value="remember-me">
-                            Recuerdame
-                        </label>
-                        <a href="#" class="pull-right need-help" id="ayuda">Necesitas ayuda? </a><span class="clearfix"></span>
-                        
-                        </form>
-                    </div>
-                    <a href="registro.html" class="text-center new-account" id="ayuda">Crea tu cuenta </a>
+  <body>
+     
+    <img src="logo1.png" alt="DogSpace">
+    <div class="container">
+        <div class="card card-container">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="dog_in_circle.png" />
+            <button class="loginBtn loginBtn--facebook">
+                Ingresa con Facebook
+              </button>
+           
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Correo electónico" required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Recuerdame
+                    </label>
                 </div>
-            </div>
-        </div>
-    
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Ingresar</button>
+            </form><!-- /form -->
+            <a href="registro.html" class="forgot-password">
+                Crear Cuenta
+            </a>
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

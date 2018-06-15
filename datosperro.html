@@ -4,65 +4,56 @@
         
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=320" />
-    <link rel="stylesheet" href="dogspace.css">
+    <link rel="stylesheet" href="registro.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link href="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//:netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//:code.jquery.com/jquery-1.11.1.min.js"></script>
-   
+    <script type="text/javascript" src="registro.js"></script>
+    
     <title>DogSpace</title>
     </head> 
     
-    <body id="register">
+    <body>
 
-            <img src="logo1.png" alt="DogSpace">
-          <!-- multistep form -->
-<form id="msform">
-        <!-- progressbar -->
-        <ul id="progressbar">
-          <li>Registro de Cuenta</li>
-          <li> Datos Personales</li>
-          <li class="active">Datos de tu Perro</li>
-        </ul>
-        <!-- fieldsets -->
-        <fieldset>
-          <h2 class="fs-title">Datos de tu Perro</h2>
-          <h3 class="fs-subtitle">Ya casi terminamos</h3>
-          <input type="text" name="dname" placeholder="Nombre de tu perro" />
-          <input type="text" name="fname" placeholder="Raza de tu perro" />
-          <input type="text" name="fname" placeholder="Edad de tu perro" />
-          <form action="/action_page.php">
-            <input type="file" name="pic" accept="image/*">
-           
-          </form>
-          
-          <a href="datospersonales.html">
-          <input type="button" name="previous" class="previous action-button" value="Regresar" />
-          </a>
-          <a href="index.html">
-          <input type="button" name="submit" class="submit action-button" value="Ingresar" />
-          </a>
-        </fieldset>
-      </form>
+            <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <form id="msform">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li>Información Personal</li>
+                                <li>Información de tu Perro</li>
+                                <li class="active">Configuración de tu Cuenta</li>
+                            </ul>
+                            <!-- fieldsets -->
+                            
+                            
+                            <fieldset>
+                                <h2 class="fs-title">Crea tu Cuenta</h2>
+                                <h3 class="fs-subtitle">Llena tus Credenciales</h3>
+                                <input type="text" name="email" placeholder="Email"/>
+                                <input type="password" name="pass" placeholder="Password"/>
+                                <input type="password" name="cpass" placeholder="Confirm Password"/>
+                                <form action="/action_page.php">
+                                <input type="file" name="pic" accept="image/*">
+                                <a href="datospersonales.html">
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                                </a>
+                                <a href="index.html">
+                                <input type="button" name="submit" class="submit action-button" value="Ingresar"/>
+                                </a>
+                            </fieldset>
+                        </form>
+                        <!-- link to designify.me code snippets -->
+                        <img src="logo1.png" alt="DogSpace">
+                        <!-- /.link to designify.me code snippets -->
+                    </div>
+                </div>
+                <!-- /.MultiStep Form -->
 
-      <footer id="piedepagina">
-        <img id="logohome2" src="Logo.png" alt="">
-        <div  style="text-align:center;">
-          <a href=tel:555-555-5555 style="color:#FA6900;text-decoration:none; font-size: 25px;">Llamanos!</a>
-          <p>Correo Electrónico <a href="mailto:someone@example.com">
-            info@dogspace.com</a>.</p>
-          
-            <div id="redess">
-              <img src="twiter.png" alt=""class="icon-button twitter"><i class="icon-twitter"></i><span></span>
-              <img src="facebook.png" alt="" class="icon-button facebook"><i class="icon-facebook"></i><span></span>
-            </div>
-          </div>
-          
-      </footer>
-            
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>               
-    </body>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>               
+</body>
 
-    </html>
+</html>
