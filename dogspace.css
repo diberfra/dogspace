@@ -7,25 +7,37 @@ a {
 }
 #index {
 	background-image: url(Back.png);
+	
+	
 }
 
 img {
-    width: 250px;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+	width: 40%;
 	flex-wrap: wrap;
-	margin-top: 50px;
+	margin-top: 20px;
 	background-image: url(Back.png);
 }
 
 #registros {
     justify-content: center;
 	flex-wrap: wrap;
-	background-image: url(Back.png)
+	background-image: url(Back.png);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
        
 }
+
+#register {
+	width: fit-content;
+	margin: 0 auto;
+}
+
 
 #face {
 	margin-left: 0px;
@@ -287,24 +299,33 @@ body {
 #principal {
 	background-image: url(Back.png);
 	align-content: center;
+	  
+	
 }
 
+
+
 #carrusel {
-	height: 500px;
-	width: 600px;
+	height: 100%;
+	width: 100%;
 	margin: 0 auto;
 	align-content: center;
 	background-image: url(Back.png);
 	box-shadow: 5px 5px #ABD7D3;
 	border: 5px;
 	border-color: #FA6900;
-	box-flex: wrap;
+	
+  	
+	
 }
 
 .nombreperro {
 	
 	color: #FA6900;
-	margin-left: 250px;
+	top: 0;
+  	left: 0;
+  	min-width: 100%;
+  	height: 100%;
 }
 
 .nav-link a {
@@ -439,6 +460,7 @@ section{
     padding:60px 0px;
 	font-family: 'Raleway', sans-serif;
 	background-image: url(Back.png);
+	flex-wrap: wrap;
 
 }
 
