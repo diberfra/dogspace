@@ -1,0 +1,63 @@
+body{
+    background-image: url(img/background.png);
+    
+}
+
+img{
+    max-height: 250px;
+}
+
+.logohome{
+    max-height: 28px;
+}
+
+h1{
+    color: #FA6900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    margin: 10px;
+    text-shadow: darkgray;
+   
+}
+
+ h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+}
+
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(238, 107, 20);
+    font-weight: 700;
+}
+
+.card{
+    margin: 20px;  
+    display: flex;
+    box-shadow: 3px 6px 10px #22867e;
+    padding: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.ingrediente{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: darkgray;
+}
+
+.btn {
+    background-color: #FA6900;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 2px 3px 4px #cdcdcd;
+    margin: 15px;
+
+}

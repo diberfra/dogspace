@@ -76,7 +76,7 @@ a {
 #logohome {
     width: 150px;
     background: #F9F9F9; 
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-right: 50px;
 }
 
@@ -95,59 +95,8 @@ a {
     color: #fff;
 }
 
-#custom_carousel .item {
-
-    color:#000;
-    background-color:#eee;
-    padding:20px 0;
-}
-#custom_carousel .controls{
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding:0;
-    margin:0;
-    white-space: nowrap;
-    text-align: center;
-    position: relative;
-    background:#ddd
-}
-#custom_carousel .controls li {
-    display: table-cell;
-    width: 1%;
-    max-width:90px
-}
-#custom_carousel .controls li.active {
-    background-color:#eee;
-    border-top:3px solid orange;
-}
-#custom_carousel .controls a small {
-    overflow:hidden;
-    display:block;
-    font-size:10px;
-    margin-top:5px;
-    font-weight:bold
-}
-
-.card-deck{
-    margin-top: 30px;
-}
-
-.card-title{
-    color: #FA6900;
-}
-
-/* .card-img-top{
-    width: 400px;
-    height: 430px;
-} */
-
-.titleblog{
-    margin-top: 15px;
+.titleblog {
     text-align: center;
     color: #F38630;
-}
 
-.card{
-    box-shadow: 4px 4px 5px grey;
 }
-

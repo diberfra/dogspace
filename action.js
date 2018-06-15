@@ -26,5 +26,3 @@ function agregar(){
     avisos.push(addAviso)
     showAvisos()
   }
-
-  

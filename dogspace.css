@@ -459,7 +459,7 @@ section{
 }
 
 #news {
-	color: #fff;
+	color: #9AD7D2;
 	font-family: Arial, Helvetica, sans-serif; 
 }
 
@@ -512,5 +512,7 @@ section{
 	
 }
 
-
+#fotoperro {
+	height: 260px;
+}
 
