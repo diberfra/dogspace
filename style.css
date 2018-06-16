@@ -2,17 +2,25 @@ a {
     text-decoration: none;
 }
 body{
-    background-image: url("background.png");
+    height: 100%;
+    background-position: center center;
+    background-image: url(Back.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#avisar {
+    width: 100%;
 }
 
 h2{
     text-align: center;
-    color: #F38630;
+    color: #F38630 !important;
 }
 
 .item{
     width: 400px;
-    height: 450px;
+    height: 485px;
     margin: 10px 10px;
     background-color: #F38630;
     box-shadow: 4px 4px 5px grey;
@@ -22,8 +30,8 @@ h2{
 }
 
 .item1{
-    width: 400px;
-    height: 200px;
+    width: 350px !important;
+    height: 270px;
     margin: 10px 10px;
     background-color: #F38630;
     box-shadow: 4px 4px 5px grey;
@@ -58,7 +66,7 @@ h2{
 }
 
 h5{
-    color: #69D2E7;
+    color: #69D2E7 !important;
 }
 
 .btn{
@@ -82,6 +90,7 @@ a {
 
 #barra {
     height: 100px;
+    width: 100%;
 }
 
 #boton {
@@ -101,7 +110,8 @@ a {
 
 }
 
-#navbarSupportedContent {
-    background-color: #F9F9F9;
-    width: 10px;
+#fotos {
+    margin-top: 10px !important ;
+    margin-bottom: 5px;
 }
+
